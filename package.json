@@ -28,5 +28,8 @@
     "eslint": "^3.5.0",
     "tap-dot": "^1.0.5",
     "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "emojione": "^2.2.6"
   }
 }
