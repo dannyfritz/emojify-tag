@@ -4,7 +4,7 @@
   "description": "Turn emoji :smile: codes into unicode 😀.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js test.js && tape test.js"
+    "test": "eslint index.js test.js && tape test.js | tap-dot"
   },
   "files": [
     "LICENSE",
