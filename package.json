@@ -4,7 +4,7 @@
   "description": "Turn emoji :smile: codes into unicode 😀.",
   "main": "index.js",
   "scripts": {
-    "test": "eslint index.js && tape test.js"
+    "test": "eslint index.js test.js && tape test.js"
   },
   "files": [
     "LICENSE",
@@ -26,10 +26,7 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^3.5.0",
-    "eslint-config-airbnb": "^11.0.0",
-    "eslint-plugin-import": "^1.14.0",
-    "eslint-plugin-jsx-a11y": "^2.2.1",
-    "eslint-plugin-react": "^6.2.0",
+    "tap-dot": "^1.0.5",
     "tape": "^4.6.0"
   }
 }
